@@ -4,7 +4,7 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-// ... Existing imports ...
+
 
 public class ScoreDbHelper extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "scores.db";
@@ -28,7 +28,6 @@ public class ScoreDbHelper extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        // Handle database upgrades if needed
         // This method will be triggered when the version number is increased
     }
 }

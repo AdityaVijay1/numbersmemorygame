@@ -1,0 +1,15 @@
+<!-- res/drawable/button_signup_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <!-- Background image -->
+        <bitmap android:src="@drawable/signup_icon_resizeimg" />
+    </item>
+    <item>
+        <!-- Text overlay -->
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+            <corners android:radius="8dp" />
+            <padding android:left="16dp" android:right="16dp" android:top="16dp" android:bottom="16dp" />
+        </shape>
+    </item>
+</layer-list>
