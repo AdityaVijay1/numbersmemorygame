@@ -28,4 +28,6 @@
     <string name="music_image">Music Image</string>
     <string name="toggle_music">Toggle Music</string>
     <string name="go_home">Home</string>
+    <string name="get_ready">Get Ready!</string>
+    <string name="_5">5</string>
 </resources>

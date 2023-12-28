@@ -10,7 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="Get Ready!"
+        android:text="@string/get_ready"
         android:textSize="24sp"
         android:textStyle="bold"
         android:textColor="@android:color/black" />
@@ -22,7 +22,7 @@
         android:layout_below="@+id/tv_get_ready"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:text="5"
+        android:text="@string/_5"
         android:textSize="48sp"
         android:textColor="@android:color/black" />
 
