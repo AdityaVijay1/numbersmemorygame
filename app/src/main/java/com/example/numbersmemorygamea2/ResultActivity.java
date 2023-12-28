@@ -90,7 +90,7 @@ public class ResultActivity extends AppCompatActivity {
                                             @Override
                                             public void onClick(View view) {
                                                 // Handle the click event to restart MainActivity
-                                                Intent intent = new Intent(ResultActivity.this, MainActivity.class);
+                                                Intent intent = new Intent(ResultActivity.this, GetReadyActivity.class);
                                                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                                                 startActivity(intent);
                                                 finish();

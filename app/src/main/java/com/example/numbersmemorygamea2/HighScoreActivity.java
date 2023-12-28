@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -75,7 +74,21 @@ public class HighScoreActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Handle the click event to restart the main activity
-                Intent intent = new Intent(HighScoreActivity.this, MainActivity.class);
+                Intent intent = new Intent(HighScoreActivity.this, GetReadyActivity.class);
+                startActivity(intent);
+                finish(); // Close the current activity
+            }
+        });
+
+        // Find the home button by ID
+        Button homeBtn = findViewById(R.id.homeBtn);
+
+        // Set OnClickListener for the home button
+        homeBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Handle the click event to go back to the home activity
+                Intent intent = new Intent(HighScoreActivity.this, HomeActivity.class);
                 startActivity(intent);
                 finish(); // Close the current activity
             }
