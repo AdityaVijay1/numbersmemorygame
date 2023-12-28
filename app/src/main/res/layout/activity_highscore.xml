@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="High Scores"
+        android:text="@string/high_scores"
         android:layout_marginStart="125dp"
         android:textSize="24sp"
         android:textStyle="bold" />
@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
-        android:text="Play Again"
+        android:text="@string/play_again"
         android:textSize="18sp"/>
 
 </LinearLayout>

@@ -22,7 +22,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginStart="50dp"
             android:textSize="24sp"
-            android:text="Your Current Score: 0" />
+            android:text="@string/your_current_score_0" />
 
         <TextView
             android:id="@+id/tv_level"
@@ -31,16 +31,15 @@
             android:layout_marginTop="30dp"
             android:layout_marginStart="80dp"
             android:textSize="28sp"
-            android:text="Level: 1" />
+            android:text="@string/level_1" />
 
         <TextView
             android:id="@+id/tv_number"
             android:layout_width="182dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="145dp"
-            android:layout_marginLeft="175dp"
             android:layout_marginTop="150dp"
-            android:text="0"
+            android:text="@string/_0"
             android:textSize="35sp" />
 
         <EditText
@@ -53,7 +52,7 @@
             android:digits="1234567890"
             android:textSize="24sp"
             android:backgroundTint="@color/color_white"
-            android:hint="What was the number?" />
+            android:hint="@string/what_was_the_number" />
 
         <Button
             android:id="@+id/b_confirm"
@@ -62,7 +61,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/button_1"
             android:textColorHighlight="@color/colorBlue"
-            android:text="Submit"/>
+            android:text="@string/submit"/>
 
     </LinearLayout>
 </layout>

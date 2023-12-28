@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">numbersmemorygamea2</string>
+    <string name="trophy_image">trophy image</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="your_score">YOUR SCORE</string>
+    <string name="_1">1</string>
+    <string name="share">Share</string>
+    <string name="highscore">Highscore</string>
+    <string name="restart">Restart</string>
+    <string name="play_again">Play Again</string>
+    <string name="high_scores">High Scores</string>
+    <string name="app_logo">App Logo</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="high_scores_menu">High Scores</string>
+    <string name="options">Options</string>
+    <string name="login_menu">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login_menu_btn">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="not_yet_registered_sign_up">Not yet registered? Sign Up</string>
+    <string name="your_current_score_0">Your Current Score: 0</string>
+    <string name="level_1">Level: 1</string>
+    <string name="_0">0</string>
+    <string name="what_was_the_number">What was the number?</string>
+    <string name="submit">Submit</string>
 </resources>

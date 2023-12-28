@@ -14,7 +14,7 @@
         android:layout_height="150dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/app_logo"
-        android:contentDescription="App Logo"/>
+        android:contentDescription="@string/app_logo"/>
 
     <!-- Button to go to SignUp Page -->
     <Button
@@ -27,7 +27,7 @@
         android:background="@drawable/button_background"
         android:drawableTop="@drawable/signup_icon_resize"
         android:padding="0dp"
-        android:text="Sign Up"
+        android:text="@string/sign_up"
         android:textSize="12sp"
         android:textColor="@android:color/white"
         android:gravity="center"/>
@@ -43,7 +43,7 @@
         android:background="@drawable/button_background"
         android:drawableTop="@drawable/login_icon_resized"
         android:padding="0dp"
-        android:text="Login"
+        android:text="@string/login"
         android:textSize="12sp"
         android:textColor="@android:color/white"
         android:gravity="center"/>
@@ -59,7 +59,7 @@
         android:background="@drawable/button_background"
         android:drawableTop="@drawable/highscores_icon_resize"
         android:padding="0dp"
-        android:text="High Scores"
+        android:text="@string/high_scores_menu"
         android:textSize="12sp"
         android:textColor="@android:color/white"
         android:gravity="center"/>
@@ -75,7 +75,7 @@
         android:background="@drawable/button_background"
         android:drawableTop="@drawable/options_icon_resized"
         android:padding="0dp"
-        android:text="Options"
+        android:text="@string/options"
         android:textSize="12sp"
         android:textColor="@android:color/white"
         android:gravity="center"/>
