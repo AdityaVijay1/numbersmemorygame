@@ -1,9 +1,12 @@
 package com.example.numbersmemorygamea2;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -63,6 +66,20 @@ public class HighScoreActivity extends AppCompatActivity {
         ListView listView = findViewById(R.id.listView);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(HighScoreActivity.this, android.R.layout.simple_list_item_1, highScoresList);
         listView.setAdapter(adapter);
+
+        // Find the restart button by ID
+        Button restartBtn = findViewById(R.id.restartBtn);
+
+        // Set OnClickListener for the restart button
+        restartBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Handle the click event to restart the main activity
+                Intent intent = new Intent(HighScoreActivity.this, MainActivity.class);
+                startActivity(intent);
+                finish(); // Close the current activity
+            }
+        });
     }
 
     // Method to get locally stored player's name from SQLite database

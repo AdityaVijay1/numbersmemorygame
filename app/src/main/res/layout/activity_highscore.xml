@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:padding="16dp"
+    android:background="@drawable/background"
     tools:context=".HighScoreActivity">
 
     <TextView
@@ -23,5 +24,15 @@
         android:divider="@android:color/darker_gray"
         android:dividerHeight="1dp"
         android:paddingTop="8dp" />
+
+    <!-- Restart Button -->
+    <Button
+        android:id="@+id/restartBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="Play Again"
+        android:textSize="18sp"/>
 
 </LinearLayout>
