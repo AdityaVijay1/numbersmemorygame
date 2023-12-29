@@ -1,6 +1,6 @@
 package com.example.numbersmemorygamea2;
 
-// ScoreContract.java
+
 import android.provider.BaseColumns;
 
 // Class for defining the database contract

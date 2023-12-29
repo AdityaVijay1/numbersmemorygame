@@ -34,4 +34,10 @@
     <string name="forgot_password_text">Forgot Password</string>
     <string name="cancel">Cancel</string>
     <string name="reset">Reset</string>
+    <string name="already_an_user_login">Already an user? Login</string>
+    <string name="sign_up_option">Sign Up</string>
+    <string name="password_area">Password</string>
+    <string name="username">Username</string>
+    <string name="email_area">Email</string>
+    <string name="sign_up_text">Sign Up</string>
 </resources>
