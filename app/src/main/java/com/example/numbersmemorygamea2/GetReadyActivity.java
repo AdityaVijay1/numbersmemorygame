@@ -7,6 +7,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+
+// Class definition for GetReadyActivity
 public class GetReadyActivity extends AppCompatActivity {
 
     @Override

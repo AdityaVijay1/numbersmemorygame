@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.IBinder;
 
+// Class definition for MusicService
 public class MusicService extends Service {
 
     private MediaPlayer mediaPlayer;
@@ -12,7 +13,7 @@ public class MusicService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
-        // Initialize MediaPlayer with your background music
+        // Initialize MediaPlayer with background music
         mediaPlayer = MediaPlayer.create(this, R.raw.bkgmusic_clipped);
         mediaPlayer.setLooping(true);
     }

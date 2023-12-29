@@ -1,6 +1,6 @@
 package com.example.numbersmemorygamea2;
 
-// Import necessary libraries
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import android.app.ProgressDialog;

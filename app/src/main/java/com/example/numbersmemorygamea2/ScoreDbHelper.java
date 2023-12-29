@@ -5,7 +5,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 
-
+// Class definition for ScoreDbHelper
 public class ScoreDbHelper extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "scores.db";
     private static final int DATABASE_VERSION = 1;

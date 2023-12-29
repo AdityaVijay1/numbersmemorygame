@@ -9,7 +9,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-
+// Class definition for OptionsActivity
 public class OptionsActivity extends AppCompatActivity {
 
     @Override

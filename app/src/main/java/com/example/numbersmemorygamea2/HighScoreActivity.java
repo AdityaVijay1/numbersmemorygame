@@ -14,6 +14,8 @@ import com.google.firebase.auth.FirebaseUser;
 
 import java.util.ArrayList;
 
+
+// Class definition for HighScoreActivity
 public class HighScoreActivity extends AppCompatActivity {
 
     @Override

@@ -3,7 +3,7 @@ package com.example.numbersmemorygamea2;
 
 import android.provider.BaseColumns;
 
-// Class for defining the database contract
+// Class definition for ScoreContract
 public class ScoreContract {
     // Make the class non-instantiable with a private constructor
     private ScoreContract() {

@@ -14,6 +14,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.Random;
 
+
+// Class definition for MainActivity
 public class MainActivity extends AppCompatActivity {
 
     TextView tv_level, tv_number, tv_score; // Added tv_score
@@ -64,7 +66,6 @@ public class MainActivity extends AppCompatActivity {
                         // Handle touch down event
                         handleTouchDown();
                         break;
-
 
                 }
                 return true;

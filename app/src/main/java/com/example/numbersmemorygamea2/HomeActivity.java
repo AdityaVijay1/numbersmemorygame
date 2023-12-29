@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+
+// Class definition for HomeActivity
 public class HomeActivity extends AppCompatActivity {
 
     @Override
@@ -47,7 +49,7 @@ public class HomeActivity extends AppCompatActivity {
         btnOptions.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Redirect to Background Music Page
+                // Redirect to Background Music/ Options Page
                 startActivity(new Intent(HomeActivity.this, OptionsActivity.class));
             }
         });
