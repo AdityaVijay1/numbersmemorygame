@@ -28,7 +28,7 @@ public class GetReadyActivity extends AppCompatActivity {
                 // Timer finished, start the main game activity
                 Intent intent = new Intent(GetReadyActivity.this, MainActivity.class);
                 startActivity(intent);
-                finish(); // Close the current activity
+                finish();
             }
         }.start();
     }

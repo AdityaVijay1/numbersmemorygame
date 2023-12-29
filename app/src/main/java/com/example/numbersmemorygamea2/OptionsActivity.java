@@ -30,7 +30,7 @@ public class OptionsActivity extends AppCompatActivity {
             }
         });
 
-        // Rest of your onCreate code...
+
     }
 
     private boolean isMusicPlaying() {
@@ -44,5 +44,4 @@ public class OptionsActivity extends AppCompatActivity {
         return false;
     }
 
-    // Rest of your OptionsActivity code...
 }

@@ -51,13 +51,13 @@ public class HighScoreActivity extends AppCompatActivity {
             String playerNameFromCursor = cursor.getString(cursor.getColumnIndexOrThrow(ScoreContract.ScoreEntry.COLUMN_NAME));
             int playerScore = cursor.getInt(cursor.getColumnIndexOrThrow(ScoreContract.ScoreEntry.COLUMN_SCORE));
 
-            // Check if playerNameFromCursor is not null before adding to the list
+            // Checking if playerNameFromCursor is not null before adding to the list
             if (playerNameFromCursor != null) {
                 highScoresList.add(playerNameFromCursor + " - " + playerScore);
             }
         }
 
-        // Close the cursor and database
+
         cursor.close();
         db.close();
 
@@ -76,7 +76,7 @@ public class HighScoreActivity extends AppCompatActivity {
                 // Handle the click event to restart the main activity
                 Intent intent = new Intent(HighScoreActivity.this, GetReadyActivity.class);
                 startActivity(intent);
-                finish(); // Close the current activity
+                finish();
             }
         });
 
@@ -90,7 +90,7 @@ public class HighScoreActivity extends AppCompatActivity {
                 // Handle the click event to go back to the home activity
                 Intent intent = new Intent(HighScoreActivity.this, HomeActivity.class);
                 startActivity(intent);
-                finish(); // Close the current activity
+                finish();
             }
         });
     }
@@ -117,7 +117,7 @@ public class HighScoreActivity extends AppCompatActivity {
             playerName = cursor.getString(cursor.getColumnIndexOrThrow(ScoreContract.ScoreEntry.COLUMN_NAME));
         }
 
-        // Close the cursor and database
+
         cursor.close();
         db.close();
 
