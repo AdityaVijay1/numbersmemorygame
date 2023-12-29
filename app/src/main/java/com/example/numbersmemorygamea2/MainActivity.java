@@ -1,14 +1,16 @@
 package com.example.numbersmemorygamea2;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.Random;
 
@@ -52,6 +54,22 @@ public class MainActivity extends AppCompatActivity {
         // Display random numbers according to levels
         generatedNumber = generatenumber(currentlevel);
         tv_number.setText(generatedNumber);
+
+        // Set touch listener for the TextView
+        tv_number.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                switch (event.getAction()) {
+                    case MotionEvent.ACTION_DOWN:
+                        // Handle touch down event
+                        handleTouchDown();
+                        break;
+
+
+                }
+                return true;
+            }
+        });
 
         // Display the elements after a second and Hide the number
         new Handler().postDelayed(new Runnable() {
@@ -125,5 +143,12 @@ public class MainActivity extends AppCompatActivity {
             output.append(randomDigit);
         }
         return output.toString();
+    }
+
+    // Handle touch down event
+    private void handleTouchDown() {
+        // Display a Toast message when the number is touched
+        Toast.makeText(MainActivity.this, "Touch detected on the number", Toast.LENGTH_SHORT).show();
+
     }
 }
